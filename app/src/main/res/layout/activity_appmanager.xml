@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <EditText
+        android:id="@+id/packname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="应用包名"
+        android:text="com.mygirl.mygirl" />
+
+
+    <Button
+        android:id="@+id/isIntalled"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="检测是否安装" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="卸载" />
+
+    <Button
+        android:id="@+id/launch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动应用" />
+</LinearLayout>
